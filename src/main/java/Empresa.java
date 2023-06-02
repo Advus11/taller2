@@ -20,7 +20,7 @@ public class Empresa {
 		return this.redesSociales;
 	}
 
-
+//Metodos
 	public Bus agregarBus(String patente, String marca, String modelo) { // metodo para agregar buses
 
 		throw new UnsupportedOperationException();
