@@ -8,6 +8,7 @@ public class Conductor {
 	private int numeroTelefono;
 	private String tipoLicencia;
 
+	//Getters
 	public String getNombre() {
 		return this.nombre;
 	}

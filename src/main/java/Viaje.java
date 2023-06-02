@@ -7,6 +7,7 @@ public class Viaje {
 	private int horaSalida;
 	private int horaLlegada;
 
+	//Getters
 	public String getCiudadOrigen() {
 		return this.ciudadOrigen;
 	}
@@ -15,16 +16,18 @@ public class Viaje {
 		return this.ciudadDestino;
 	}
 
-	public void setCiudadDestino(String ciudadDestino) {
-		this.ciudadDestino = ciudadDestino;
-	}
-
 	public int getHoraSalida() {
 		return this.horaSalida;
 	}
 
 	public int getHoraLlegada() {
 		return this.horaLlegada;
+	}
+
+	//Setters
+
+	public void setCiudadDestino(String ciudadDestino) {
+		this.ciudadDestino = ciudadDestino;
 	}
 
 }
