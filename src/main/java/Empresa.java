@@ -7,9 +7,10 @@ public class Empresa {
 	private String direccion;
 	private int redesSociales;
 
+
 	public int getRut() {
 		return this.rut;
-	}
+	}  //Getters
 
 	public String getDireccion() {
 		return this.direccion;
@@ -19,65 +20,42 @@ public class Empresa {
 		return this.redesSociales;
 	}
 
-	/**
-	 * 
-	 * @param patente
-	 * @param marca
-	 * @param modelo
-	 */
-	public Bus agregarBus(String patente, String marca, String modelo) {
-		// TODO - implement Empresa.agregarBus
+
+	public Bus agregarBus(String patente, String marca, String modelo) { // metodo para agregar buses
+
+		throw new UnsupportedOperationException();
+
+	}
+
+
+	public Conductor agregarConductor(String nombre, String apellido, int numeroTelefono, String tipoLicencia) { //metodo para agregar conductor
+
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param nombre
-	 * @param apellido
-	 * @param numeroTelefono
-	 * @param tipoLicencia
-	 */
-	public Conductor agregarConductor(String nombre, String apellido, int numeroTelefono, String tipoLicencia) {
-		// TODO - implement Empresa.agregarConductor
+
+	public List<Bus> obtenerBusesPorDestino(String ciudadOrigen) { //metodo para obtener buses segun destino
+
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param ciudadOrigen
-	 */
-	public List<Bus> obtenerBusesPorDestino(String ciudadOrigen) {
-		// TODO - implement Empresa.obtenerBusesPorDestino
+	public Bus descontinuarBus(String patente) { //metodo para descontinuar un bus
+
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param patente
-	 */
-	public Bus descontinuarBus(String patente) {
-		// TODO - implement Empresa.descontinuarBus
+	public boolean asociarViajeABus(String patente, String ciudadOrigen, String ciudadDestino) { //metodo para asociar un viaje a un bus
+
 		throw new UnsupportedOperationException();
 	}
 
-	/**
-	 * 
-	 * @param patente
-	 * @param ciudadOrigen
-	 * @param ciudadDestino
-	 */
-	public boolean asociarViajeABus(String patente, String ciudadOrigen, String ciudadDestino) {
-		// TODO - implement Empresa.asociarViajeABus
+	public List<Bus> listaBuses() { //metodo para obetener la lista de buses
+
 		throw new UnsupportedOperationException();
 	}
 
-	public List<Bus> listaBuses() {
-		// TODO - implement Empresa.listaBuses
-		throw new UnsupportedOperationException();
-	}
+	public List<Viaje> listaViajes() { //metodo para obtener la lista de viajes
 
-	public List<Viaje> listaViajes() {
-		// TODO - implement Empresa.listaViajes
 		throw new UnsupportedOperationException();
 	}
 

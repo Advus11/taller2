@@ -15,10 +15,6 @@ public class Viaje {
 		return this.ciudadDestino;
 	}
 
-	/**
-	 * 
-	 * @param ciudadDestino
-	 */
 	public void setCiudadDestino(String ciudadDestino) {
 		this.ciudadDestino = ciudadDestino;
 	}
